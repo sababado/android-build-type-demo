@@ -38,7 +38,7 @@ Here, the `dev` source tree contains only one file, and that is a `strings.xml` 
 any strings that do not already exist.
 
 #Environment Setup
-The only requirement is to have ANDROID_HOME defined as an environment variable.
+The only requirement is to have `ANDROID_HOME` defined as an environment variable.
 
 #Building
 
