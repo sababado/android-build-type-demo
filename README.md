@@ -37,18 +37,23 @@ BuildTestApp
 Here, the `dev` source tree contains only one file, and that is a `strings.xml` file. When building for the `dev` build type these strings will override any existing strings in the `main` build type and append
 any strings that do not already exist.
 
-#Building With Gradle Wrapper
+#Environment Setup
+The only requirement is to have ANDROID_HOME defined as an environment variable.
+
+#Building
+
+##Building With Gradle Wrapper
 The gradle wrapper allows anyone to run gradle commands without having to install Gradle on their machine.
 The gradle wrapper is included with every new Android Build Studio project and can be also run from the command line.
 By default, the gradle wrapper (`gradlew.exe`) is in the root of the project directory.
 
-#Build with Dev API keys
+##Build with Dev API keys
 To build the app with API keys for a dev environment, run the command:
 ```
 gradlew assembleDev
 ```
 
-#Build with Production API keys
+##Build with Production API keys
 To build the app with API keys for a production environment, run the command:
 ```
 gradlew assemble
