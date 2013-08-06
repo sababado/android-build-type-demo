@@ -2,6 +2,7 @@ android-build-type-demo
 =======================
 
 This is a simple Android project to show how to use build types with the Gradle based build system.
+*This project can be imported into Android Build Studio but not Eclipse (as of this commit).*
 
 #Custom Build Types
 The Android plugin for Gradle allows the creation of custom build types.
