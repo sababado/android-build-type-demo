@@ -11,6 +11,7 @@
 # generated files
 bin/
 gen/
+build/
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -18,3 +19,10 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# Android Build Studio project files
+.iml
+.idea
+
+# Gradle files
+.gradle
